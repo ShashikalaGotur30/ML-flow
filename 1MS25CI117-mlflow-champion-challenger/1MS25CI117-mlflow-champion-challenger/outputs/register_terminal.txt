@@ -1,0 +1,15 @@
+Successfully registered model '1MS25CI117-sentiment-model'.
+2026/11/20 17:18:19 WARNING mlflow.tracking._model_registry.fluent: Run with id 28e94c843f844926bb1fe3104cc820f4 has no artifacts at artifact path 'model', registering model based on models:/m-37b694bf70b24f4c8f8808c36efd8753 instead
+2026/11/20 17:18:21 INFO mlflow.store.model_registry.abstract_store: Waiting up to 300 seconds for model version to finish creation. Model name: 1MS25CI117-sentiment-model, version 1
+Created version '1' of model '1MS25CI117-sentiment-model'.
+Registered model '1MS25CI117-sentiment-model' already exists. Creating a new version of this model...
+2026/11/20 17:18:21 WARNING mlflow.tracking._model_registry.fluent: Run with id 276241b9ba6745c59146482bdea6eda4 has no artifacts at artifact path 'model', registering model based on models:/m-40e9745e38d146c2ab767f8bd0f23544 instead
+2026/11/20 17:18:21 INFO mlflow.store.model_registry.abstract_store: Waiting up to 300 seconds for model version to finish creation. Model name: 1MS25CI117-sentiment-model, version 2
+Created version '2' of model '1MS25CI117-sentiment-model'.
+Comparison run: 10882274266e44348d6b53b6858f0ceb  winner tag = B_roberta-large
+Reason: Challenger beats Champion by +3.51 macro-F1 points (>= 1.5)
+Registered A_sentiment_distilbert-sst2  -> 1MS25CI117-sentiment-model v1
+Registered B_sentiment_roberta-large    -> 1MS25CI117-sentiment-model v2
+
+@champion   -> v2  siebert/sentiment-roberta-large-english
+@challenger -> v1  distilbert-base-uncased-finetuned-sst-2-english

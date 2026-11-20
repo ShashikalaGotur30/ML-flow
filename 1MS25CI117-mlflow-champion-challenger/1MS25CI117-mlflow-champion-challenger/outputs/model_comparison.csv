@@ -1,0 +1,7 @@
+,A_distilbert-sst2,B_roberta-large,B_minus_A
+accuracy,90.0,93.5,3.5
+macro_f1,89.991,93.4985,3.5075
+precision_pos,87.7358,92.233,4.4972
+recall_pos,93.0,95.0,2.0
+avg_latency_ms,49.4817,282.4549,232.9732
+total_inference_s,9.8963,56.491,46.5947

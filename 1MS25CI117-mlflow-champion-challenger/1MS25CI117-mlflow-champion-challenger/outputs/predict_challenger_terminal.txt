@@ -1,0 +1,17 @@
+Loading models:/1MS25CI117-sentiment-model@challenger
+  -> version 1 | hf_model_id = distilbert-base-uncased-finetuned-sst-2-english | run = A_sentiment_distilbert-sst2
+Downloading artifacts:   0%|          | 0/10 [00:00<?, ?it/s]Downloading artifacts:  10%|█         | 1/10 [00:00<00:00, 9218.25it/s]Downloading artifacts:  20%|██        | 2/10 [00:00<00:00, 6967.28it/s]Downloading artifacts:  30%|███       | 3/10 [00:00<00:00, 100.14it/s] Downloading artifacts:  40%|████      | 4/10 [00:00<00:00, 60.20it/s] Downloading artifacts:  50%|█████     | 5/10 [00:00<00:00, 65.98it/s]Downloading artifacts:  60%|██████    | 6/10 [00:00<00:00, 68.11it/s]Downloading artifacts:  70%|███████   | 7/10 [00:00<00:00, 70.94it/s]Downloading artifacts:  80%|████████  | 8/10 [00:00<00:00, 74.01it/s]Downloading artifacts:  80%|████████  | 8/10 [00:00<00:00, 74.01it/s]Downloading artifacts:  90%|█████████ | 9/10 [00:00<00:00, 74.01it/s]Downloading artifacts: 100%|██████████| 10/10 [00:02<00:00, 74.01it/s]Downloading artifacts: 100%|██████████| 10/10 [00:02<00:00,  4.07it/s]
+/workspace/work/venv/lib/python3.12/site-packages/mlflow/pyfunc/utils/data_validation.py:187: UserWarning: [33mAdd type hints to the `predict` method to enable data validation and automatic signature inference during model logging. Check https://mlflow.org/docs/latest/model/python_model.html#type-hint-usage-in-pythonmodel for more details.[0m
+  color_warning(
+Loading weights:   0%|          | 0/104 [00:00<?, ?it/s]Loading weights: 100%|██████████| 104/104 [00:00<00:00, 18979.58it/s]
+sample_id                                                                                           text prediction  confidence
+  new_001            The canteen biryani at college today was honestly the best I have had all semester.   positive      0.9996
+  new_002              Waited forty minutes for the bus and it never came, absolutely ruined my morning.   negative      0.9998
+  new_003 The MLflow lab was confusing at first, but once the registry clicked it felt really rewarding.   positive      0.9991
+  new_004                       Oh great, another surprise quiz on a Monday morning. Just what I needed.   positive      0.9988
+  new_005              The new phone has a gorgeous screen, though the battery barely lasts until lunch.   positive      0.9989
+  new_006                              I did not hate the movie, the second half was actually quite fun.   positive      0.9998
+  new_007                    Customer support kept transferring me and nobody solved the refund problem.   negative      0.9997
+  new_008                 Our team finished the mini project two days early and the demo went perfectly.   positive      0.9997
+
+Saved outputs/new_data_predictions_challenger.csv

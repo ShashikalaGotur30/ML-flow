@@ -1,0 +1,16 @@
+sample_id,text,reference,pred_A,conf_A,pred_B,conf_B
+s_001,the best that can be said about the work here of scottish director ritchie ... is that he obviously does n't have his heart in it .,negative,positive,0.8562,negative,0.9995
+s_008,oh come on .,negative,positive,0.9851,negative,0.9931
+s_025,this flick is about as cool and crowd-pleasing as a documentary can get .,positive,negative,0.9125,positive,0.9987
+s_026,what better message than ` love thyself ' could young women of any size receive ?,positive,negative,0.9917,positive,0.9978
+s_041,"does paint some memorable images ... , but makhmalbaf keeps her distance from the characters",positive,positive,0.9877,negative,0.9995
+s_093,every nanosecond of the the new guy reminds you that you could be doing something else far more pleasurable .,negative,positive,0.9874,negative,0.9991
+s_121,i 'll bet the video game is a lot more fun than the film .,negative,positive,0.9977,negative,0.998
+s_132,"this time mr. burns is trying something in the martin scorsese street-realist mode , but his self-regarding sentimentality trips him up again .",negative,positive,0.9759,negative,0.9995
+s_155,"drops you into a dizzying , volatile , pressure-cooker of a situation that quickly snowballs out of control , while focusing on the what much more than the why .",positive,negative,0.9415,positive,0.9988
+s_160,"a full world has been presented onscreen , not some series of carefully structured plot points building to a pat resolution .",positive,negative,0.9622,positive,0.9988
+s_162,"if you believe any of this , i can make you a real deal on leftover enron stock that will double in value a week from friday .",negative,negative,0.9888,positive,0.9776
+s_164,"the longer the movie goes , the worse it gets , but it 's actually pretty good in the first few minutes .",negative,positive,0.9996,negative,0.9981
+s_178,"it 's about following your dreams , no matter what your parents think .",positive,negative,0.8941,positive,0.9983
+s_180,the primitive force of this film seems to bubble up from the vast collective memory of the combatants .,positive,positive,0.9895,negative,0.9986
+s_193,slick piece of cross-promotion .,positive,positive,0.9998,negative,0.9994

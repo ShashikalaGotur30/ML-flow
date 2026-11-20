@@ -1,0 +1,32 @@
+{
+  "decision": {
+    "winner": "B",
+    "reason": "Challenger beats Champion by +3.51 macro-F1 points (>= 1.5)",
+    "delta_macro_f1": 3.5075,
+    "latency_ratio": 5.708
+  },
+  "A": {
+    "accuracy": 90.0,
+    "macro_f1": 89.991,
+    "precision_pos": 87.7358,
+    "recall_pos": 93.0,
+    "avg_latency_ms": 49.4817,
+    "total_inference_s": 9.8963,
+    "hf_model_id": "distilbert-base-uncased-finetuned-sst-2-english",
+    "run_name": "A_sentiment_distilbert-sst2",
+    "run_id": "28e94c843f844926bb1fe3104cc820f4",
+    "model_uri": "models:/m-37b694bf70b24f4c8f8808c36efd8753"
+  },
+  "B": {
+    "accuracy": 93.5,
+    "macro_f1": 93.4985,
+    "precision_pos": 92.233,
+    "recall_pos": 95.0,
+    "avg_latency_ms": 282.4549,
+    "total_inference_s": 56.491,
+    "hf_model_id": "siebert/sentiment-roberta-large-english",
+    "run_name": "B_sentiment_roberta-large",
+    "run_id": "276241b9ba6745c59146482bdea6eda4",
+    "model_uri": "models:/m-40e9745e38d146c2ab767f8bd0f23544"
+  }
+}

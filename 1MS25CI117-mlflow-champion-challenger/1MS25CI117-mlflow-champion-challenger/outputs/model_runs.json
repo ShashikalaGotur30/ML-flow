@@ -1,0 +1,11 @@
+{
+  "A": {
+    "run_id": "28e94c843f844926bb1fe3104cc820f4",
+    "hf_model_id": "distilbert-base-uncased-finetuned-sst-2-english"
+  },
+  "B": {
+    "run_id": "276241b9ba6745c59146482bdea6eda4",
+    "hf_model_id": "siebert/sentiment-roberta-large-english"
+  },
+  "winner": "B"
+}

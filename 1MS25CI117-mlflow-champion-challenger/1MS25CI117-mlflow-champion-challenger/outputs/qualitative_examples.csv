@@ -1,0 +1,6 @@
+sample_id,text,reference,pred_A,conf_A,pred_B,conf_B,correct_model,comment
+s_008,oh come on .,negative,positive,0.9851,negative,0.9931,B,Very short sarcastic phrase. A reads 'oh come on' as upbeat; B correctly hears the complaint.
+s_121,i 'll bet the video game is a lot more fun than the film .,negative,positive,0.9977,negative,0.998,B,Negative by comparison (the game is more fun than the film). A is fooled by the word 'fun'; B gets the implied criticism.
+s_164,"the longer the movie goes , the worse it gets , but it 's actually pretty good in the first few minutes .",negative,positive,0.9996,negative,0.9981,B,Mixed sentence whose overall verdict is negative. A latches onto 'pretty good' at the end; B weighs 'the worse it gets' correctly.
+s_162,"if you believe any of this , i can make you a real deal on leftover enron stock that will double in value a week from friday .",negative,negative,0.9888,positive,0.9776,A,Sarcasm about Enron stock. Here A is right and B is wrong: B takes 'double in value' literally as positive.
+s_193,slick piece of cross-promotion .,positive,positive,0.9998,negative,0.9994,A,"Two-word compliment 'slick piece of cross-promotion'. The gold label is positive; A agrees, B reads it as a cynical put-down. Arguably ambiguous for humans too."
